@@ -6,7 +6,7 @@
 */
 
 function choiceToNum(c) {
-  switch (c) {
+  switch (c.id) {
     case "rock":
       return 0;
     case "scissors":
